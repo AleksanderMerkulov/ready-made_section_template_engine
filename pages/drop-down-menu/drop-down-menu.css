@@ -1,0 +1,32 @@
+/*Оформление для тестов*/
+#drop-down{
+    background: aquamarine;
+}
+
+
+/*Общие стили для шаблона*/
+
+nav>ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul>li{
+    list-style-type: none;
+}
+
+#drop-down{
+    /*display: flex;*/
+    display: none;
+    transition: 0.3s;
+}
+.drop-down{
+    opacity: 0;
+}
+#drop-down>div,a{
+
+}
+
+.active-drop-down{
+    opacity: 1;
+}
